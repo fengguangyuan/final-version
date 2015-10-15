@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{978EFC94-ABD0-4431-96F0-176A81A6D941}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LED_Projectiong</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\OpenGL;C:\wxWidgets-3.0.1\lib\vc_lib\mswud;C:\wxWidgets-3.0.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OpenGL\GL;C:\wxWidgets-3.0.1\lib\vc_lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;glew32.lib;wxbase30ud_net.lib;wxmsw30ud_html.lib;wxbase30ud_xml.lib;wxmsw30ud_adv.lib;wxmsw30ud_aui.lib;wxmsw30ud_gl.lib;wxmsw30ud_media.lib;wxmsw30ud_propgrid.lib;wxmsw30ud_qa.lib;wxmsw30ud_ribbon.lib;wxmsw30ud_richtext.lib;wxmsw30ud_stc.lib;wxmsw30ud_xrc.lib;wxscintillad.lib;wxmsw30ud_core.lib;wxbase30ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="LED_3DSFile.h" />
+    <ClInclude Include="LED_DefferredRendering.h" />
+    <ClInclude Include="LED_LightDialog.h" />
+    <ClInclude Include="LED_EditMenuEVT.h" />
+    <ClInclude Include="LED_ObjDialog.h" />
+    <ClInclude Include="LED_ObjectModel_EXT.h" />
+    <ClInclude Include="LED_RenderToTexture.h" />
+    <ClInclude Include="LED_SceneManager.h" />
+    <ClInclude Include="LED_SceneNode.h" />
+    <ClInclude Include="LED_ShaderFragment.h" />
+    <ClInclude Include="LED_ShaderProgram.h" />
+    <ClInclude Include="LED_Texture.h" />
+    <ClInclude Include="LED_BMPTexture.h" />
+    <ClInclude Include="LED_Camera.h" />
+    <ClInclude Include="LED_header.h" />
+    <ClInclude Include="LED_Light.h" />
+    <ClInclude Include="LED_Log.h" />
+    <ClInclude Include="LED_MainApplication.h" />
+    <ClInclude Include="LED_MainFrame.h" />
+    <ClInclude Include="LED_Material.h" />
+    <ClInclude Include="LED_Object.h" />
+    <ClInclude Include="LED_ObjectCache.h" />
+    <ClInclude Include="LED_ObjectModel.h" />
+    <ClInclude Include="LED_OpenGLCanvas.h" />
+    <ClInclude Include="LED_OpenGLEnv.h" />
+    <ClInclude Include="LED_RenderObject.h" />
+    <ClInclude Include="LED_WinMenuBar.h" />
+    <ClInclude Include="openfile.h" />
+    <ClInclude Include="shadow.h" />
+    <ClInclude Include="teapot.h" />
+    <ClInclude Include="updateEvent.h" />
+    <ClInclude Include="Vector3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LED_3DSFile.cpp" />
+    <ClCompile Include="LED_BMPTexture.cpp" />
+    <ClCompile Include="LED_Camera.cpp" />
+    <ClCompile Include="LED_DefferredRendering.cpp" />
+    <ClCompile Include="LED_Light.cpp" />
+    <ClCompile Include="LED_LightDialog.cpp" />
+    <ClCompile Include="LED_LightMenuEVT.cpp" />
+    <ClCompile Include="LED_Log.cpp" />
+    <ClCompile Include="LED_MainApplication.cpp" />
+    <ClCompile Include="LED_MainFrame.cpp" />
+    <ClCompile Include="LED_ObjDialog.cpp" />
+    <ClCompile Include="LED_ObjectCache.cpp" />
+    <ClCompile Include="LED_ObjectModel.cpp" />
+    <ClCompile Include="LED_ObjectModel_EXT.cpp" />
+    <ClCompile Include="LED_OpenFile.cpp" />
+    <ClCompile Include="LED_OpenGLCanvas.cpp" />
+    <ClCompile Include="LED_RenderObject.cpp" />
+    <ClCompile Include="LED_RenderToTexture.cpp" />
+    <ClCompile Include="LED_SceneManager.cpp" />
+    <ClCompile Include="LED_SceneNode.cpp" />
+    <ClCompile Include="LED_ShaderFragment.cpp" />
+    <ClCompile Include="LED_ShaderProgram.cpp" />
+    <ClCompile Include="LED_WinMenuBar.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="updateEvent.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

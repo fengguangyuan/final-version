@@ -1,0 +1,303 @@
+Initialize LED Designer...
+Cache: Models -> Builed 'Models' SUCCESSED
+Cache: Textures -> Builed 'Textures' SUCCESSED
+Cache: Sounds -> Builed 'Sounds' SUCCESSED
+Cache: Shaders -> Builed 'Shaders' SUCCESSED
+Cache: Materials -> Builed 'Materials' SUCCESSED
+Cache: Lights -> Builed 'Lights' SUCCESSED
+Cache: Cameras -> Builed 'Cameras' SUCCESSED
+Initialize OpenGL...
+Cache: Shaders -> Add 'RenderQuadVS'
+Cache: Shaders -> Add 'RenderQuadPS'
+Cache: Shaders -> Query 'RenderQuadVS' SUCCESSED
+Cache: Shaders -> Query 'RenderQuadPS' SUCCESSED
+Cache: Shaders -> Add 'RenderLightVS'
+Cache: Shaders -> Add 'RenderLightPS'
+Cache: Shaders -> Query 'RenderLightVS' SUCCESSED
+Cache: Shaders -> Query 'RenderLightPS' SUCCESSED
+Initialize OpenGL Successfully
+Initialize LED Designer Successfully
+Load .obj Model: ->ResData\floor.obj ...
+Cache: Models -> Add 'FLOOR'
+Load .obj Model: ->ResData\sofa.obj ...
+Cache: Models -> Add 'SOFA'
+Load .obj Model: ->ResData\desk.obj ...
+Cache: Models -> Add 'DESK'
+Load .obj Model: ->ResData\light.obj ...
+Cache: Models -> Add 'LIGHT'
+Load .obj Model: ->ResData\wall01.obj ...
+Cache: Models -> Add 'WALL01'
+Load .obj Model: ->ResData\wall02.obj ...
+Cache: Models -> Add 'WALL02'
+Load .obj Model: ->ResData\wall03.obj ...
+Cache: Models -> Add 'WALL03'
+Load .obj Model: ->ResData\wall04.obj ...
+Cache: Models -> Add 'WALL04'
+Cache: Cameras -> Add 'MainCamera'
+Cache: Textures -> Add 'ROOMTexture'
+Cache: Textures -> Add 'WHITETexture'
+Cache: Materials -> Add 'TestMaterial'
+Cache: Shaders -> Add 'SimpleTransVS'
+Cache: Shaders -> Add 'SimpleColorPS'
+Cache: Shaders -> Query 'SimpleTransVS' SUCCESSED
+Cache: Shaders -> Query 'SimpleColorPS' SUCCESSED
+Cache: Shaders -> Add 'simpleSample'
+Cache: Shaders -> Add 'SimpleTransVS'
+Cache: Shaders -> Add 'SimpleColorPS'
+Cache: Shaders -> Query 'SimpleTransVS' SUCCESSED
+Cache: Shaders -> Query 'SimpleColorPS' SUCCESSED
+Cache: Shaders -> Query 'SimpleTransVS' SUCCESSED
+Cache: Shaders -> Query 'SimpleColorPS' SUCCESSED
+Cache: Shaders -> Add 'LightSample'
+Cache: Shaders -> Add 'RenderPositionVS'
+Cache: Shaders -> Add 'RenderPositionPS'
+Cache: Shaders -> Query 'RenderPositionVS' SUCCESSED
+Cache: Shaders -> Query 'RenderPositionPS' SUCCESSED
+Cache: Shaders -> Add 'RenderPosition'
+Cache: Shaders -> Add 'RenderNormalVS'
+Cache: Shaders -> Add 'RenderNormalPS'
+Cache: Shaders -> Query 'RenderNormalVS' SUCCESSED
+Cache: Shaders -> Query 'RenderNormalPS' SUCCESSED
+Cache: Shaders -> Add 'RenderNormal'
+Cache: Shaders -> Add 'RenderTextureVS'
+Cache: Shaders -> Add 'RenderTexturePS'
+Cache: Shaders -> Query 'RenderTextureVS' SUCCESSED
+Cache: Shaders -> Query 'RenderTexturePS' SUCCESSED
+Cache: Shaders -> Add 'RenderTexture'
+ERROR : Shader Complier Error Log,File 'ResData\dsRendering.vs' ---> 
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Shaders -> Add 'RenderDSVS'
+Cache: Shaders -> Add 'RenderDSPS'
+Cache: Shaders -> Query 'RenderDSVS' SUCCESSED
+Cache: Shaders -> Query 'RenderDSPS' SUCCESSED
+Cache: Shaders -> Add 'DS_Shading'
+Cache: Models -> Query 'FLOOR' SUCCESSED
+Cache: Shaders -> Query 'simpleSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'ROOMTexture' SUCCESSED
+Cache: Models -> Query 'DESK' SUCCESSED
+Cache: Shaders -> Query 'simpleSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Models -> Query 'SOFA' SUCCESSED
+Cache: Shaders -> Query 'simpleSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'red_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'Cylinder02'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'yellow_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'white_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'cyan_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'maroon_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'olive_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'purple_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'gold_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Lights -> Add 'ghostwhite_light'
+Cache: Models -> Query 'LIGHT' SUCCESSED
+Cache: Shaders -> Query 'LightSample' SUCCESSED
+Cache: Shaders -> Query 'RenderPosition' SUCCESSED
+Cache: Shaders -> Query 'RenderNormal' SUCCESSED
+Cache: Shaders -> Query 'RenderTexture' SUCCESSED
+Cache: Shaders -> Query 'DS_Shading' SUCCESSED
+ERROR : Use Shader Program Failed --> 
+Vertex info
+-----------
+0(7) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(8) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+0(9) : warning C7555: 'varying' is deprecated, use 'in/out' instead
+
+Cache: Materials -> Query 'TestMaterial' SUCCESSED
+Cache: Textures -> Query 'WHITETexture' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Lights -> Query 'white_light' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Cameras -> Query 'MainCamera' SUCCESSED
+Cache: Lights -> Query 'Cylinder02' SUCCESSED
+Cache: Lights -> Query 'white_light' SUCCESSED
+Cache: Lights -> Query 'white_light' SUCCESSED

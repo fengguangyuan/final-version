@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LED_MainFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_OpenGLEnv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_OpenGLCanvas.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_MainApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_header.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ObjectCache.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ObjectModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_RenderObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_BMPTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Material.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_Texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ShaderFragment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ShaderProgram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_RenderToTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_SceneManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_SceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_DefferredRendering.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="teapot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_LightDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_WinMenuBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="updateEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ObjectModel_EXT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_EditMenuEVT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_ObjDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LED_3DSFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LED_MainFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_OpenGLCanvas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_MainApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ObjectCache.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ObjectModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_RenderObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ShaderFragment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ShaderProgram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_BMPTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_RenderToTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_SceneNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_SceneManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_DefferredRendering.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_LightDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_WinMenuBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="updateEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_Light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ObjectModel_EXT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_OpenFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_LightMenuEVT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_ObjDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LED_3DSFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+#version 330 core
+
+in vec2 UV;
+
+layout(location = 0) out vec3 color;
+
+uniform sampler2D TexSampler;
+
+void main()
+{
+	color = texture2D(TexSampler,UV).rgb;
+}

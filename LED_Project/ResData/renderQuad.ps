@@ -1,0 +1,47 @@
+#version 330 core
+
+// Interpolated values from the vertex shaders
+in vec2 UV;
+
+// Ouput data
+out vec4 color;
+
+// Values that stay constant for the whole mesh.
+uniform sampler2D TextureSampler;
+uniform sampler2D PositionSampler;
+uniform sampler2D NormalSampler;
+
+uniform vec3 uAmbientColor;
+uniform vec3 ulightDiffuseColor;
+uniform vec3 ulightWorldPos;
+uniform vec3 ulightFallOff;//falloff between 0~1
+uniform float ulightDiffusePower;//diffuse power
+
+void main(){
+
+	// Output color = color of the texture at the specified UV
+	
+	//texture diffuse color
+	vec3 texColor = texture2D( TextureSampler, UV ).xyz;
+	//texture ambient color
+	vec3 ambientColor = uAmbientColor*texColor;
+	//position sampler
+	vec3 pos = texture2D( PositionSampler, UV ).xyz;
+	//normal sampler
+	vec3 normal = texture2D( NormalSampler, UV ).xyz;
+	normal = normalize(normal);
+	//calculate light direction
+	vec3 lightDir = ulightWorldPos - pos;
+	//get distance
+	float distance = length(lightDir);
+	distance = clamp(1/(ulightFallOff.x*distance*distance + ulightFallOff.y*distance*distance + ulightFallOff.z*distance*distance),0,1.0);
+	//normalize lightDir
+	lightDir = normalize(lightDir);
+	//cos theta
+	float cosTheta = clamp(dot(lightDir,normal),0,1);
+	//falloff
+	float falloff = cosTheta * distance * ulightDiffusePower;
+	//这里将光照值画到屏幕上
+	color = vec4(falloff*ulightDiffuseColor.x,falloff*ulightDiffuseColor.y,falloff*ulightDiffuseColor.z,1.0);
+	//color = vec4(ulightFallOff.x,falloff*ulightDiffuseColor.y,falloff*ulightDiffuseColor.z,1.0);
+}
