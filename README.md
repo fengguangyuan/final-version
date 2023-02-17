@@ -1,1 +1,1 @@
-lighting project--final version
+在校实践小项目之《基于OpenGL&Widgets的3D模型导入及灯光渲染》
